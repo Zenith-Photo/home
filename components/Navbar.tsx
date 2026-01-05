@@ -9,7 +9,7 @@ const ZenithLogo: React.FC<{ className?: string }> = ({ className = "w-8 h-8" })
     viewBox="0 0 32 32" 
     className={`${className} transition-transform duration-700 group-hover:rotate-180`}
     fill="none" 
-    xmlns="http://www.w3.org/2000/svg"
+    xmlns="https://github.com/Zenith-Photo/home/blob/main/public/icon.png?raw=true"
   >
     <circle cx="16" cy="16" r="14" stroke="currentColor" strokeWidth="1.5" className="opacity-20" />
     <circle cx="16" cy="16" r="6" stroke="currentColor" strokeWidth="2" />
