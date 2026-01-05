@@ -8,7 +8,7 @@ import { getPhotosByLocation } from '../services/storage';
 // ==========================================
 // 【重要】ここにURL化した画像のリンクを貼り付けてください
 // ==========================================
-const USER_WATERFALL_IMAGE_URL = 'https://images.unsplash.com/photo-1544965850-6f8a66788f9b?auto=format&fit=crop&q=80&w=1920';
+const USER_WATERFALL_IMAGE_URL = 'https://github.com/Zenith-Photo/home/blob/main/public/home.jpg?raw=true';
 
 const Home: React.FC = () => {
   const heroPhotos = getPhotosByLocation('hero');
@@ -159,7 +159,7 @@ const Home: React.FC = () => {
         <div 
           className="absolute inset-0 z-0 bg-fixed brightness-[0.4] grayscale"
           style={{
-            backgroundImage: "url('https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?auto=format&fit=crop&q=80&w=1920')",
+            backgroundImage: "url('https://github.com/Zenith-Photo/home/blob/main/public/home.jpg?raw=true')",
             backgroundSize: 'cover',
             backgroundPosition: 'center',
           }}
